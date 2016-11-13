@@ -161,7 +161,7 @@ class ChipInput extends React.Component {
 
       const index = parseInt(child.key, 10);
       const chosenRequest = dataSource[index];
-      this.handleAddChip(chosenRequest)
+      //this.handleAddChip(chosenRequest)
   
       this.autoComplete.setState({
         searchText: '',
